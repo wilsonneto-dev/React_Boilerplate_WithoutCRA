@@ -1,3 +1,10 @@
 babel: transpilar es to js antigo
 webpack: module bundle
   - loaders: carregar arquivos
+
+
+Rodar babel:
+yarn babel .\src\index.js --out-file ./public/bundle.js
+
+Rodar webpack:
+yarn webpack --node development 
